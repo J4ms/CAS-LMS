@@ -1,0 +1,405 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Phillip Stanton",
+      "email": "admin@cas.edu",
+      "password": "admin123",
+      "role": "admin",
+      "avatar": "",
+      "createdAt": "2025-06-01"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Sarah Chen",
+      "email": "teacher@cas.edu",
+      "password": "teacher123",
+      "role": "teacher",
+      "avatar": "",
+      "department": "Computer Science",
+      "createdAt": "2025-07-15"
+    },
+    {
+      "id": 3,
+      "name": "Ava Mitchell",
+      "email": "student@cas.edu",
+      "password": "student123",
+      "role": "student",
+      "avatar": "",
+      "studentId": "STU-005",
+      "enrolledAt": "2026-01-30",
+      "createdAt": "2026-01-30"
+    },
+    {
+      "id": 4,
+      "name": "Maria Santos",
+      "email": "maria@cas.edu",
+      "password": "pass123",
+      "role": "student",
+      "avatar": "",
+      "studentId": "STU-012",
+      "enrolledAt": "2026-02-05",
+      "createdAt": "2026-02-05"
+    },
+    {
+      "id": 5,
+      "name": "Juan Dela Cruz",
+      "email": "juan@cas.edu",
+      "password": "pass123",
+      "role": "student",
+      "avatar": "",
+      "studentId": "STU-018",
+      "enrolledAt": "2026-02-10",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": 6,
+      "name": "Prof. James Lee",
+      "email": "james@cas.edu",
+      "password": "teacher123",
+      "role": "teacher",
+      "avatar": "",
+      "department": "Data Science",
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 7,
+      "name": "Sofia Lim",
+      "email": "sofia@cas.edu",
+      "password": "pass123",
+      "role": "student",
+      "avatar": "",
+      "studentId": "STU-023",
+      "enrolledAt": "2026-01-15",
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": 8,
+      "name": "Carlos Garcia",
+      "email": "carlos@cas.edu",
+      "password": "pass123",
+      "role": "teacher",
+      "avatar": "",
+      "department": "Mobile Development",
+      "createdAt": "2025-09-01"
+    },
+    {
+      "id": 9,
+      "name": "Ana Reyes",
+      "email": "ana@cas.edu",
+      "password": "pass123",
+      "role": "teacher",
+      "avatar": "",
+      "department": "Marketing",
+      "createdAt": "2025-10-01"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Web Development Bootcamp",
+      "category": "Technology",
+      "level": "Intermediate",
+      "instructorId": 2,
+      "duration": "12 weeks",
+      "students": 245,
+      "status": "Active",
+      "description": "Learn full-stack web development from scratch with modern tools and frameworks.",
+      "createdAt": "2025-08-01"
+    },
+    {
+      "id": 2,
+      "name": "Data Science Fundamentals",
+      "category": "Data",
+      "level": "Beginner",
+      "instructorId": 6,
+      "duration": "10 weeks",
+      "students": 198,
+      "status": "Active",
+      "description": "Master the fundamentals of data science including Python, statistics, and machine learning.",
+      "createdAt": "2025-09-01"
+    },
+    {
+      "id": 3,
+      "name": "UI/UX Design Masterclass",
+      "category": "Design",
+      "level": "Advanced",
+      "instructorId": 2,
+      "duration": "8 weeks",
+      "students": 176,
+      "status": "Active",
+      "description": "Advanced design principles, prototyping, and user research methodologies.",
+      "createdAt": "2025-10-01"
+    },
+    {
+      "id": 4,
+      "name": "Mobile App Development",
+      "category": "Technology",
+      "level": "Intermediate",
+      "instructorId": 8,
+      "duration": "14 weeks",
+      "students": 154,
+      "status": "Active",
+      "description": "Build cross-platform mobile applications using React Native and Flutter.",
+      "createdAt": "2025-11-01"
+    },
+    {
+      "id": 5,
+      "name": "Digital Marketing",
+      "category": "Marketing",
+      "level": "Beginner",
+      "instructorId": 9,
+      "duration": "6 weeks",
+      "students": 132,
+      "status": "Active",
+      "description": "Learn SEO, social media marketing, content strategy, and analytics.",
+      "createdAt": "2025-12-01"
+    },
+    {
+      "id": 6,
+      "name": "Business Communication",
+      "category": "Business",
+      "level": "Beginner",
+      "instructorId": 2,
+      "duration": "8 weeks",
+      "students": 89,
+      "status": "Active",
+      "description": "Effective communication skills for the modern workplace.",
+      "createdAt": "2026-01-01"
+    },
+    {
+      "id": 7,
+      "name": "French for Beginners",
+      "category": "Language",
+      "level": "Beginner",
+      "instructorId": 6,
+      "duration": "10 weeks",
+      "students": 67,
+      "status": "Active",
+      "description": "Start your French language journey with conversational basics.",
+      "createdAt": "2026-01-15"
+    },
+    {
+      "id": 8,
+      "name": "Spanish for Beginners",
+      "category": "Language",
+      "level": "Beginner",
+      "instructorId": 9,
+      "duration": "10 weeks",
+      "students": 54,
+      "status": "Active",
+      "description": "Learn Spanish from scratch with interactive lessons.",
+      "createdAt": "2026-02-01"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "studentId": 3,
+      "courseId": 7,
+      "enrolledAt": "2026-01-30",
+      "progress": 60,
+      "status": "Active",
+      "score": 78
+    },
+    {
+      "id": 2,
+      "studentId": 3,
+      "courseId": 6,
+      "enrolledAt": "2026-01-30",
+      "progress": 50,
+      "status": "Active",
+      "score": 72
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "courseId": 8,
+      "enrolledAt": "2026-02-01",
+      "progress": 100,
+      "status": "Completed",
+      "score": 90
+    },
+    {
+      "id": 4,
+      "studentId": 3,
+      "courseId": 5,
+      "enrolledAt": "2026-02-15",
+      "progress": 35,
+      "status": "Active",
+      "score": 64
+    },
+    {
+      "id": 5,
+      "studentId": 4,
+      "courseId": 1,
+      "enrolledAt": "2026-02-05",
+      "progress": 45,
+      "status": "Active",
+      "score": 70
+    },
+    {
+      "id": 6,
+      "studentId": 5,
+      "courseId": 2,
+      "enrolledAt": "2026-02-10",
+      "progress": 30,
+      "status": "Active",
+      "score": 65
+    },
+    {
+      "id": 7,
+      "studentId": 7,
+      "courseId": 3,
+      "enrolledAt": "2026-01-15",
+      "progress": 100,
+      "status": "Completed",
+      "score": 92
+    },
+    {
+      "id": 8,
+      "studentId": 7,
+      "courseId": 4,
+      "enrolledAt": "2026-01-20",
+      "progress": 75,
+      "status": "Active",
+      "score": 85
+    },
+    {
+      "id": 9,
+      "studentId": 4,
+      "courseId": 5,
+      "enrolledAt": "2026-03-01",
+      "progress": 20,
+      "status": "Active",
+      "score": 55
+    },
+    {
+      "id": 10,
+      "studentId": 5,
+      "courseId": 1,
+      "enrolledAt": "2026-02-15",
+      "progress": 15,
+      "status": "Dropped",
+      "score": 30
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "senderId": 2,
+      "receiverId": 3,
+      "content": "The assignment deadline has been extended to next Friday.",
+      "timestamp": "2026-05-13T08:30:00",
+      "read": false
+    },
+    {
+      "id": 2,
+      "senderId": 4,
+      "receiverId": 2,
+      "content": "Thank you for the feedback on my project!",
+      "timestamp": "2026-05-13T08:15:00",
+      "read": true
+    },
+    {
+      "id": 3,
+      "senderId": 5,
+      "receiverId": 2,
+      "content": "Can I schedule a meeting to discuss my grades?",
+      "timestamp": "2026-05-13T07:00:00",
+      "read": false
+    },
+    {
+      "id": 4,
+      "senderId": 7,
+      "receiverId": 2,
+      "content": "I submitted my final paper yesterday.",
+      "timestamp": "2026-05-12T15:00:00",
+      "read": true
+    },
+    {
+      "id": 5,
+      "senderId": 3,
+      "receiverId": 6,
+      "content": "When is the next exam for Data Science?",
+      "timestamp": "2026-05-12T10:00:00",
+      "read": true
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Midterm Exams Schedule Released",
+      "content": "The midterm examination schedule for all courses has been posted. Please check your respective course pages.",
+      "authorId": 1,
+      "createdAt": "2026-05-10",
+      "priority": "high"
+    },
+    {
+      "id": 2,
+      "title": "New Course: AI & Machine Learning",
+      "content": "We are excited to announce a new course on AI & Machine Learning starting next month.",
+      "authorId": 1,
+      "createdAt": "2026-05-08",
+      "priority": "medium"
+    },
+    {
+      "id": 3,
+      "title": "Library Hours Extended",
+      "content": "The digital library will now be accessible 24/7 for all enrolled students.",
+      "authorId": 1,
+      "createdAt": "2026-05-05",
+      "priority": "low"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Web Dev Lecture",
+      "date": "2026-05-13",
+      "time": "9:00 AM",
+      "courseId": 1,
+      "type": "lecture"
+    },
+    {
+      "id": 2,
+      "title": "Data Science Lab",
+      "date": "2026-05-13",
+      "time": "11:00 AM",
+      "courseId": 2,
+      "type": "lab"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Workshop",
+      "date": "2026-05-13",
+      "time": "2:00 PM",
+      "courseId": 3,
+      "type": "workshop"
+    },
+    {
+      "id": 4,
+      "title": "Faculty Meeting",
+      "date": "2026-05-14",
+      "time": "4:00 PM",
+      "courseId": null,
+      "type": "meeting"
+    },
+    {
+      "id": 5,
+      "title": "Midterm Exam - Web Dev",
+      "date": "2026-05-20",
+      "time": "9:00 AM",
+      "courseId": 1,
+      "type": "exam"
+    },
+    {
+      "id": 6,
+      "title": "Project Submission Deadline",
+      "date": "2026-05-22",
+      "time": "11:59 PM",
+      "courseId": 4,
+      "type": "deadline"
+    }
+  ]
+}
